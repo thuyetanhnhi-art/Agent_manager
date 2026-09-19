@@ -1,0 +1,182 @@
+[
+  {
+    "id": "core-satisfaction",
+    "title": "Khảo sát Đánh giá mức độ Hài lòng về Hệ thống Core Banking mới",
+    "description": "Nhằm nâng cao chất lượng vận hành và tối ưu hóa trải nghiệm thao tác của Giao dịch viên trên hệ thống Core banking mới, Ban Dự án CNTT tổ chức khảo sát ý kiến từ toàn bộ Phòng Giao dịch trên toàn quốc. Ý kiến phản hồi quý báu của đơn vị sẽ là cơ sở trực tiếp để nâng cấp hệ thống.",
+    "createdAt": "2026-07-01T08:00:00.000Z",
+    "updatedAt": "2026-07-01T08:00:00.000Z",
+    "active": true,
+    "questions": [
+      {
+        "id": "core_q1",
+        "type": "text",
+        "title": "Họ tên cán bộ đại diện điền khảo sát",
+        "description": "Vui lòng điền đầy đủ họ tên cán bộ chịu trách nhiệm tổng hợp ý kiến.",
+        "required": true
+      },
+      {
+        "id": "core_q2",
+        "type": "radio",
+        "title": "Đánh giá mức độ ổn định tổng thể của hệ thống Core mới",
+        "required": true,
+        "options": [
+          "Rất ổn định (Không phát sinh lỗi)",
+          "Ổn định (Ít lỗi, tự xử lý nhanh)",
+          "Bình thường",
+          "Thỉnh thoảng bị lỗi/tắc nghẽn giao dịch",
+          "Thường xuyên đơ/treo nghiêm trọng"
+        ]
+      },
+      {
+        "id": "core_q3",
+        "type": "rating",
+        "title": "Đánh giá tốc độ xử lý giao dịch so với hệ thống cũ",
+        "description": "Thang điểm từ 1 (Rất chậm) đến 5 (Cực kỳ nhanh chóng, mượt mà)",
+        "required": true
+      },
+      {
+        "id": "core_q4",
+        "type": "checkbox",
+        "title": "Phân hệ nghiệp vụ nào thường xảy ra độ trễ (delay) lớn nhất tại đơn vị?",
+        "required": false,
+        "options": [
+          "Giao dịch tiền mặt tại quầy",
+          "Chuyển tiền liên ngân hàng",
+          "Mở tài khoản, thẻ & CIF khách hàng",
+          "Tín dụng & Đăng ký tài sản bảo đảm",
+          "Báo cáo và quyết toán cuối ngày"
+        ]
+      },
+      {
+        "id": "core_q5",
+        "type": "paragraph",
+        "title": "Các khó khăn cụ thể hoặc Đề xuất giải pháp nâng cấp hệ thống Core",
+        "description": "Anh/chị vui lòng mô tả chi tiết trường hợp lỗi hoặc ý tưởng đóng góp (nếu có).",
+        "required": false
+      }
+    ],
+    "deadline": "2026-07-31"
+  },
+  {
+    "id": "it-infrastructure",
+    "title": "Khảo sát Hiện trạng Hạ tầng Trang thiết bị CNTT tại các đơn vị",
+    "description": "Ban Quản lý Hạ tầng tổ chức khảo sát toàn diện trang thiết bị máy móc kỹ thuật tại các Điểm/Phòng Giao dịch để lập phương án cấp mới, bảo dưỡng định kỳ và thanh lý thiết bị cũ trong Quý tới.",
+    "createdAt": "2026-07-05T08:00:00.000Z",
+    "updatedAt": "2026-07-05T08:00:00.000Z",
+    "active": true,
+    "questions": [
+      {
+        "id": "it_q1",
+        "type": "select",
+        "title": "Đường truyền mạng truyền thông chính đang sử dụng tại PGD",
+        "required": true,
+        "options": [
+          "Leased Line chuyên dụng riêng biệt",
+          "Cáp quang tốc độ cao (FTTH)",
+          "Kết nối vô tuyến / Mạng 4G/5G dự phòng",
+          "Khác / Chưa rõ thông tin"
+        ]
+      },
+      {
+        "id": "it_q2",
+        "type": "rating",
+        "title": "Mức độ đáp ứng hiệu năng của dàn máy tính (PC) giao dịch viên",
+        "description": "1 Sao (Quá yếu, thường đứng máy) đến 5 Sao (Rất tốt, mượt mà)",
+        "required": true
+      },
+      {
+        "id": "it_q3",
+        "type": "radio",
+        "title": "Hiện trạng hoạt động của Máy in sổ chuyên dụng tại đơn vị",
+        "required": true,
+        "options": [
+          "Hoạt động hoàn hảo, bản in rõ nét",
+          "Hay bị kẹt giấy hoặc mờ mực",
+          "Đang hỏng, phải dùng chung máy in khác",
+          "Thiếu hụt máy in chuyên dụng so với số quầy"
+        ]
+      },
+      {
+        "id": "it_q4",
+        "type": "text",
+        "title": "Số lượng bộ máy tính đề xuất bổ sung hoặc thay thế mới",
+        "description": "Vui lòng ghi số lượng máy cần nâng cấp (ghi 0 nếu đã đủ tốt).",
+        "required": true
+      },
+      {
+        "id": "it_q5",
+        "type": "paragraph",
+        "title": "Mô tả thêm các sự cố đường truyền hoặc hỏng hóc phần cứng thường gặp",
+        "required": false
+      }
+    ],
+    "deadline": "2026-07-25"
+  },
+  {
+    "id": "service-quality-2026",
+    "title": "Khảo sát Chất lượng Dịch vụ Khách hàng tại Quầy Giao dịch Q3/2026",
+    "description": "Phòng Chăm sóc Khách hàng thu thập đánh giá định kỳ từ các PGD về chất lượng phục vụ, thời gian chờ và sự hài lòng của khách hàng tại quầy trong Quý 3/2026.",
+    "createdAt": "2026-07-08T08:00:00.000Z",
+    "updatedAt": "2026-07-08T08:00:00.000Z",
+    "active": true,
+    "questions": [
+      {
+        "id": "svc_q1",
+        "type": "text",
+        "title": "Họ tên Trưởng/Phó PGD phụ trách điền khảo sát",
+        "required": true
+      },
+      {
+        "id": "svc_q2",
+        "type": "rating",
+        "title": "Đánh giá mức độ hài lòng chung của khách hàng tại quầy trong tháng qua",
+        "description": "1 Sao (Rất không hài lòng) đến 5 Sao (Xuất sắc)",
+        "required": true
+      },
+      {
+        "id": "svc_q3",
+        "type": "radio",
+        "title": "Thời gian chờ trung bình của khách hàng tại quầy (giờ cao điểm)",
+        "required": true,
+        "options": [
+          "Dưới 5 phút",
+          "5 – 10 phút",
+          "10 – 20 phút",
+          "Trên 20 phút"
+        ]
+      },
+      {
+        "id": "svc_q4",
+        "type": "checkbox",
+        "title": "Loại giao dịch nào thường phát sinh khiếu nại hoặc phản ánh từ khách hàng?",
+        "required": false,
+        "options": [
+          "Giao dịch tiền gửi / rút tiền",
+          "Chuyển tiền trong & ngoài nước",
+          "Dịch vụ thẻ (mở thẻ, khóa thẻ, tăng hạn mức)",
+          "Vay vốn & tất toán khoản vay",
+          "Dịch vụ ngân hàng điện tử (App/Internet Banking)"
+        ]
+      },
+      {
+        "id": "svc_q5",
+        "type": "select",
+        "title": "Đơn vị có tổ chức họp phản hồi nội bộ về chất lượng dịch vụ định kỳ không?",
+        "required": true,
+        "options": [
+          "Có, hàng tuần",
+          "Có, hàng tháng",
+          "Thỉnh thoảng khi có phát sinh",
+          "Chưa tổ chức"
+        ]
+      },
+      {
+        "id": "svc_q6",
+        "type": "paragraph",
+        "title": "Đề xuất cải tiến quy trình phục vụ hoặc trang thiết bị tại quầy",
+        "required": false
+      }
+    ],
+    "deadline": "2026-07-20"
+  }
+]

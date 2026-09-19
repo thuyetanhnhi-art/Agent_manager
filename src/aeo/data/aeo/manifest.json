@@ -1,0 +1,57 @@
+[
+  {
+    "region": "Hà Nội",
+    "slug": "ha-noi",
+    "sheetCount": 3
+  },
+  {
+    "region": "Đông Bắc Bộ",
+    "slug": "dong-bac-bo",
+    "sheetCount": 3
+  },
+  {
+    "region": "Tây Bắc Bộ",
+    "slug": "tay-bac-bo",
+    "sheetCount": 2
+  },
+  {
+    "region": "Bắc Trung Bộ",
+    "slug": "bac-trung-bo",
+    "sheetCount": 3
+  },
+  {
+    "region": "Trung Bộ",
+    "slug": "trung-bo",
+    "sheetCount": 6
+  },
+  {
+    "region": "Nam Trung Bộ",
+    "slug": "nam-trung-bo",
+    "sheetCount": 3
+  },
+  {
+    "region": "Đông Nam Bộ",
+    "slug": "dong-nam-bo",
+    "sheetCount": 3
+  },
+  {
+    "region": "Hồ Chí Minh 1",
+    "slug": "ho-chi-minh-1",
+    "sheetCount": 3
+  },
+  {
+    "region": "Hồ Chí Minh 2",
+    "slug": "ho-chi-minh-2",
+    "sheetCount": 3
+  },
+  {
+    "region": "Tây Nam Bộ 1",
+    "slug": "tay-nam-bo-1",
+    "sheetCount": 2
+  },
+  {
+    "region": "Tây Nam Bộ 2",
+    "slug": "tay-nam-bo-2",
+    "sheetCount": 2
+  }
+]

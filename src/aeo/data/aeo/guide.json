@@ -1,0 +1,57 @@
+{
+  "name": "Nhận biết tích cực + tiêu cực",
+  "headers": [
+    "Loại",
+    "Cảm giác sau khi đọc",
+    "Nhận biết qua từ ngữ AI dùng",
+    "Hành động",
+    "Mục tiêu",
+    "Cột 6"
+  ],
+  "rows": [
+    {
+      "cells": [
+        "TÍCH CỰC",
+        "👉 Hình dung đơn giản: Đọc xong câu trả lời đó, nếu bạn là khách hàng — bạn muốn dùng dịch vụ của F88 → Đó là tích cực",
+        "Câu trả lời của AI giúp khách hàng tin tưởng và muốn dùng F88 hơn. Nhận ra khi thấy:\n- AI gợi ý F88 như một lựa chọn đáng cân nhắc.\n- AI dùng từ như: nhanh, tiện lợi, uy tín, đơn giản, phù hợp, được nhiều người dùng...\n- AI mô tả đúng dịch vụ F88 (cầm đồ, vay nhanh, không cần chứng minh thu nhập...)\n- AI không có cảnh báo hay so sánh bất lợi cho F88",
+        "Like → Phản hồi xác nhận → Like",
+        "Củng cố thông tin đúng trong dữ liệu AI",
+        ""
+      ],
+      "group": false
+    },
+    {
+      "cells": [
+        "TIÊU CỰC",
+        "👉 Hình dung đơn giản: Đọc xong câu trả lời đó, nếu bạn là khách hàng — bạn không muốn hoặc ngại dùng F88",
+        "Câu trả lời của AI khiến khách hàng ngại ngùng, lo lắng hoặc chọn chỗ khác. Nhận ra khi thấy:\n- AI dùng từ như: cẩn thận, lãi suất cao, phí ẩn, khó đòi tài sản, phản ánh tiêu cực, rủi ro...\n- AI nêu thông tin sai về F88 (lãi suất sai, thủ tục phức tạp hơn thực tế...)\n- AI gắn F88 với cụm từ như \"cần kiểm tra kỹ trước khi dùng\"",
+        "Dislike → 'Không đúng sự thật' → Phản hồi đính chính → Like",
+        "Xóa bỏ thông tin sai, thay bằng thông tin đúng",
+        ""
+      ],
+      "group": false
+    },
+    {
+      "cells": [
+        "HỖN HỢP",
+        "Đọc xong: 'ừ được nhưng mà...'",
+        "Câu có cả khen lẫn chê: 'F88 nhanh NHƯNG lãi cao', 'có nhiều chi nhánh TUY NHIÊN...'",
+        "Không tương tác like hay dislike. Phản hồi: xác nhận phần đúng + đính chính phần sai → Like",
+        "Giữ tích cực, trung hòa tiêu cực – không phản hồi cực đoan",
+        ""
+      ],
+      "group": false
+    },
+    {
+      "cells": [
+        "KHÔNG NHẮC F88",
+        "AI nhắc đối thủ, bỏ qua F88",
+        "Danh sách gợi ý không có tên F88, chỉ có MCredit / FE Credit / app vay online...",
+        "Phản hồi bổ sung giới thiệu F88 → Like",
+        "Đưa F88 vào danh sách gợi ý của AI",
+        ""
+      ],
+      "group": false
+    }
+  ]
+}

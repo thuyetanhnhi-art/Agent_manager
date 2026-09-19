@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.mcp-servers.json
+.env.local
+agent-tasks.json
+agent-projects.json
+agent-fb-config.json
+agent-fb-leads.json
+agent-ai-qc-config.json
+agent-ai-qc-results.json
+agent-qc-config.json
+agent-survey-responses.json
+.agent-proxy.json
+.claude/settings.local.json
+*.log
